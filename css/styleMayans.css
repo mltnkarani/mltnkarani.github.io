@@ -5010,36 +5010,6 @@ ul {
 .trailers .video-style-2 .slider-nav .slick-next::before:hover {
   color: #dcf836;
 }
-
-a {
-  position: relative;
-  display: inline-block;
-  transition: .3s;
-  text-decoration: none;
-}
-
-a::before {
-  position: absolute;
-  top: .3em;
-  left: 0;
-  content: '';
-  width: 100%;
-  height: 1px;
-  background-color: green;
-  opacity: 0;
-  transition: .3s;
-}
-
-a:hover::before {
-  top: 0;
-  opacity: 1;
-}
-
-a:hover {
-  color: green;
-}
-
-
 .ads {
   margin-bottom: 60px;
 }
@@ -5688,12 +5658,12 @@ a:hover {
 }
 /*movie single hero*/
 .mv-single-hero {
-  background: url('../images/uploads/hero-bg.jpg') no-repeat;
+  background: url('../images/Series/mayans-bg.jpg') no-repeat;
   height: 598px;
 }
 /*series single hero*/
 .sr-single-hero {
-  background: url('../images/uploads/sr-single.jpg') no-repeat;
+  background: url('../images/Series/mayans-bg.jpg') no-repeat;
   height: 598px;
 }
 .hero3 {

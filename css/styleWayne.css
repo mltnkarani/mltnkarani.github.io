@@ -1,36 +1,4 @@
-/* ---------------- TABLE OF CONTENT ----------------------
-	-----------------------------------------------------------
-	-----------------------------------------------------------
 
-
-	0. FRAMEWORK
-
-	1. BASE
-	   1.1. BASE
-	   1.2. TYPOGRAPHY
-
-	2. COMPONENT
-	   2.1. PLUGINS
-	   2.2. COMMON
-	   2.3. MODULES
-
-	3. SKELETON
-	   3.1. PAGE
-	   3.2. HEADER
-	   3.3. FOOTER
-
-
-	-----------------------------------------------------------
-	-----------------------------------------------------------
-------------------- END TABLE OF CONTENT ------------------*/
-/* I. FRAMEWORK
-***********************/
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   *:before,
@@ -5011,6 +4979,7 @@ ul {
   color: #dcf836;
 }
 
+
 a {
   position: relative;
   display: inline-block;
@@ -5688,7 +5657,7 @@ a:hover {
 }
 /*movie single hero*/
 .mv-single-hero {
-  background: url('../images/uploads/hero-bg.jpg') no-repeat;
+  background: url('../images/Series/wayne1-bg.jpg') no-repeat;
   height: 598px;
 }
 /*series single hero*/
