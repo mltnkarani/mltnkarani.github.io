@@ -322,8 +322,7 @@ jQuery.extend( {
 
 	isEmptyObject: function( obj ) {
 
-		/* eslint-disable no-unused-vars */
-		// See https://github.com/eslint/eslint/issues/6125
+		
 		var name;
 
 		for ( name in obj ) {
@@ -542,16 +541,7 @@ function isArrayLike( obj ) {
 		typeof length === "number" && length > 0 && ( length - 1 ) in obj;
 }
 var Sizzle =
-/*!
- * Sizzle CSS Selector Engine v2.3.3
- * https://sizzlejs.com/
- *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license
- * http://jquery.org/license
- *
- * Date: 2016-08-08
- */
+
 (function( window ) {
 
 var i,
@@ -598,8 +588,7 @@ var i,
 	push_native = arr.push,
 	push = arr.push,
 	slice = arr.slice,
-	// Use a stripped-down indexOf as it's faster than native
-	// https://jsperf.com/thor-indexof-vs-for/5
+	
 	indexOf = function( list, elem ) {
 		var i = 0,
 			len = list.length;

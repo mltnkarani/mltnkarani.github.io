@@ -118,41 +118,7 @@ $(function(){
       });
     }); 
 
-	//slider for movie and tv show home 2
-	multiItem2.slick({
-		infinite: true,
-		slidesToShow: 6,
-		slidesToScroll: 6,
-		arrows: false,
-		// autoplay: true ,
-		// autoplaySpeed: 2000,
-		dots: true,
-		responsive: [
-	    {
-	      breakpoint: 1200,
-	      settings: {
-	        slidesToShow: 3,
-	        slidesToScroll: 3,
-	        infinite: true,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 768,
-	      settings: {
-	        slidesToShow: 3,
-	        slidesToScroll: 3
-	      }
-	    },
-	    {
-	      breakpoint: 480,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1
-	      }
-	    }
-	  ]
-	});
+	
 	//slider movie and tv show home 1, 3
 	multiItem.slick({
 		infinite: true,
@@ -226,7 +192,7 @@ $(function(){
 	    }
 	  ]
 	});
-	//slider for home v3 and home v2, twitter slider home 1, 2
+	//slider for home 
 	var singleItem = $('.slider-single-item');
 	singleItem.slick({
 		infinite: true,
@@ -350,7 +316,7 @@ $(function(){
 	    }
 	  ]
 	});
-	//for trailer v1 and 2
+	//for trailer
 	var slidefor2 = $('.slider-for-2');
 	var slidenav2 = $('.slider-nav-2');
 	slidefor2.slick({
