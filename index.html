@@ -116,11 +116,15 @@
 			<!-- /.navbar-collapse -->
 			
 	    </nav>
-	    <div class="gcse-searchresults"></div>
+	    
 	    <!-- top search form -->
-		<script async src="https://cse.google.com/cse.js?cx=e26d0677390c10a7b"></script>
-		<div class="gcse-searchbox"></div>
-		
+		<form action="/search" method="get">
+			<input name="q" type="text" />
+			<button type="submit">Search</button>
+	   </form>
+	   location ~ ^/search {
+		return 302 https://duckduckgo.com/?q=site%3Abinfalse.de+$arg_q;
+	}
 	</div>
 </header>
 <!-- END | Header -->
@@ -243,16 +247,16 @@
 	    		</div>
 	    		<div class="movie-item">
 	    			<div class="mv-img">
-	    				<img src="images/movies/Aquaman.jpg" alt="" width="285" height="437">
+	    				<img src="images/Series/tenet.jpg" alt="" width="285" height="437">
 	    			</div>
 					<div class="hvr-inner">
-						<a  href="#"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+						<a  href="Tenet.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
 					</div>
 	    			<div class="title-in">
 	    				<div class="cate">
 	    					<span class="blue"><a href="#">Sci-fi</a></span> <span class="orange"><a href="#">Action</a></span>
 	    				</div>
-	    				<h6><a href="#">Aquaman</a></h6>
+	    				<h6><a href="Tenet.html">Tenet</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.9</span> /10</p>
 	    			</div>
 	    		</div>
